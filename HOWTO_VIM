@@ -1,0 +1,18 @@
+#making the built and installed vim (under /usr/local/bin/) , the default editor
+
+
+# add the newly installed vim as an alternative
+
+sudo update-alternatives --install /usr/bin/editor editor /usr/local/bin/vim 1
+
+#i check the editor list now include the new one from  /usr/local/bin/vim
+
+update-alternatives --list editor
+
+# make it the editor default
+
+sudo update-alternatives --set editor /usr/local/bin/vim
+
+# check version from shell
+
+vim -version

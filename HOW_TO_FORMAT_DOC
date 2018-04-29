@@ -1,0 +1,1 @@
+pretty print a json file:  :%!python -m json.tool

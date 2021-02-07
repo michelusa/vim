@@ -1,0 +1,4 @@
+1. install pathogen (see https://github.com/tpope/vim-pathogen)
+2. add to the .vimrc:
+  execute pathogen#infect
+3. install vim-airline (see git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline)
